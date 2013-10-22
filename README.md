@@ -2,7 +2,7 @@
 
 **ss-angular-templates** - is a wrapper for [angular.js](http://angularjs.org) templates, provides server-side compiled templates (html/jade) for [SocketStream](http://socketstream.org) applications.
 
-```$ npm ss-angular-templates --save```
+```$ npm install ss-angular-templates --save```
 
 # Why
 Let's say we have next templates structure:
