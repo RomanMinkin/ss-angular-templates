@@ -1,4 +1,4 @@
-# Angualr.js templates warapper for SocketStream framework
+# Angualr.js templates wrapper for SocketStream framework
 
 **ss-angular-templates** - is a wrapper for [angular.js](http://angularjs.org) templates, provides server-side compiled templates (html/jade) for [SocketStream](http://socketstream.org) applications.
 
