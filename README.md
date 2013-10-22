@@ -1,6 +1,6 @@
 # Angualr.js templates warapper for SocketStream framework
 
-**ss-angular-templates** - is a wrapper for [angular.js](angularjs.org) templates, provides server-side compiled templates (html/jade) for [SocketStream](socketstream.org) applications.
+**ss-angular-templates** - is a wrapper for [angular.js](http://angularjs.org) templates, provides server-side compiled templates (html/jade) for [SocketStream](http://socketstream.org) applications.
 
 ```$ npm ss-angular-templates --save```
 
@@ -20,7 +20,7 @@ client/
 ```
 
 
-...in most cases we need to have an access within an [angular.js](angularjs.org) application to the templates with [templateUrl](http://docs.angularjs.org/api/ngRoute.$route):
+...in most cases we need to have an access within an [angular.js](http://angularjs.org) application to the templates with [templateUrl](http://docs.angularjs.org/api/ngRoute.$route):
 ```JavaScript
 ...
 templateUrl: 'template/accordion/accordion.html', // in case if you are using http://angular-ui.github.io/bootstrap/
