@@ -1,0 +1,25 @@
+{
+  "name": "ss-angular-templates",
+  "version": "0.0.1",
+  "author": {
+    "name": "Roman Minkin",
+    "email": "minkinroman@gmail.com"
+  },
+  "description": "Angular.js template engine wrapper provides server-side compiled templates (html/jade) for SocketStream applications",
+  "main": "./lib/engine.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RomanMinkin/ss-angular-templates"
+  },
+  "bugs": {
+    "url": "https://github.com/RomanMinkin/ss-angular-templates/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "jade": "~0.35.0"
+  },
+  "keywords": ["socketstream", "angular", "template", "jade", "ss"]
+}
