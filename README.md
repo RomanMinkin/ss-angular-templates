@@ -84,4 +84,4 @@ ss.client.templateEngine.use(require('ss-angular-templates'), '/pageElements', {
 
 # Options
 - **idTransformer** {Function} - `id` template's attribute transformer
-- **jade** {Buolean} - allows to compile Jade template engine files into HTML string
+- **jade** {Boolean} - allows to compile Jade template engine files into HTML string
