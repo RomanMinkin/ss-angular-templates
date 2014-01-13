@@ -29,7 +29,7 @@ templateUrl: 'pages/index.html', // Jade -> HTML convertation
 templateUrl: 'pages/about.html',
 ...
 ```
-But SocketStream's [default angualar.js template wrapper](https://github.com/socketstream/socketstream/blob/master/lib/client/template_engines/angular.js) wraps templates with attribute ```id``` like this:
+But SocketStream's [default angular.js template wrapper](https://github.com/socketstream/socketstream/blob/master/lib/client/template_engines/angular.js) wraps templates with attribute ```id``` like this:
 
 ```HTML
     <script id="tmpl-libs-template-accordion-accordion.html" type="text/ng-template">
@@ -38,7 +38,7 @@ But SocketStream's [default angualar.js template wrapper](https://github.com/soc
     <script id="tmpl-pages-about.html" type="text/ng-template">
 ```
 
-In addition, default `angualar.js` templates wrapper doesn't support [Jade tamplate engine](http://jade-lang.com/) files.
+In addition, default `angular.js` templates wrapper doesn't support [Jade tamplate engine](http://jade-lang.com/) files.
 
 
 
@@ -85,3 +85,4 @@ ss.client.templateEngine.use(require('ss-angular-templates'), '/pageElements', {
 # Options
 - **idTransformer** {Function} - `id` template's attribute transformer
 - **jade** {Boolean} - allows to compile Jade template engine files into HTML string
+
